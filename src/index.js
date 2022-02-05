@@ -5,7 +5,7 @@ multi-line comment */
 let x=1;
 var y=2;
 console.log(x);
-const a=3;
+const a1=3;
 var val;
 
 var myVar;
@@ -39,4 +39,9 @@ titleCaseOver = 9000;
 
 let catName = "Oliver";
 let catSound = "Meow!";
+
+const FCC = "freeCodeCamp"; 
+let fact = "is cool!"; 
+fact = "is awesome!";
+console.log(FCC, fact); 
 
