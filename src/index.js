@@ -52,5 +52,5 @@ const difference = 45 - 33;
 const product = 8 * 10;
 
 const quotient = 66 / 33;
-const myArray = [["John", 23], ["cat", 2]];
-myArray.push(["dog", 3]);
+const myArray = [["John", 23], ["dog", 3]];
+const removedFromMyArray=myArray.shift();
