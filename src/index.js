@@ -54,6 +54,7 @@ const product = 8 * 10;
 const quotient = 66 / 33;
 function functionWithArgs(x,y){
     console.log(x+y);
+    return x+y;
   }
   functionWithArgs(1,2);
   functionWithArgs(7,9);
