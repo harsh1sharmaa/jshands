@@ -72,3 +72,11 @@ const quotient = 4.4 / 2;
 
 let remainder = 8;
 remainder=8%3;
+
+let a = 3;
+let b = 17;
+let c = 12;
+
+a += 12;
+b += 9;
+c += 7;
