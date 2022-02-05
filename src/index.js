@@ -50,20 +50,30 @@ const sum = 10 + 10;
 const difference = 45 - 33;
 
 const product = 8 * 10;
-function testSize(num) {
-    // Only change code below this line
-    let x;
-    if(num<5){
-   x= "Tiny";
-    }else if(num<10){
-  x= "Small";
-  
-    }else if(num<15){
-      x= "Medium";
-  
-    }else if(num<20){
-  x= "Large"
-    }else if(num>=20) {
-  x= "Huge"
-    }
+const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+
+function golfScore(par, strokes) {
+  // Only change code below this line
+  let x;
+  if(strokes==1){
+    x=names[0];
+  }else if(strokes<=par -2 ){
+     x=names[1];
+  }else if(strokes ==par-1){
+ x=names[2];
+  }else if(strokes==par){
+ x=names[3];
+  }else if(strokes==par+1){
+ x=names[4];
+  }else if(strokes==par+2){
+ x=names[5];
+  }else if(strokes >=par+3){
+    x=names[6];
+  }
+
+
+  return x;
+  // Only change code above this line
 }
+
+golfScore(5, 4);
