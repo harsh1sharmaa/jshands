@@ -58,7 +58,7 @@ let myVar1 = 87;
 
 myVar1++;
 myVar1--
-let myStr = "Jello World";
-
- myStr = "Hello World";
+Setup
+const lastName = "Lovelace";
+const thirdLetterOfLastName = lastName[2];
  
