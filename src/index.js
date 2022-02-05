@@ -11,5 +11,6 @@ var val;
 var myVar;
 myVar = 5;
 console.log(myVar);
+ let num=myVar;
 
 
