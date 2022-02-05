@@ -65,3 +65,5 @@ myVar1--
 let myDecimal=5.7;
 myDecimal=parseFloat(myDecimal);
 
+
+const product = 5.0 * 1.0;
