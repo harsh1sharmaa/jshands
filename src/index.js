@@ -51,14 +51,13 @@ const difference = 45 - 33;
 
 const product = 8 * 10;
 let count = 0;
+// Setup
 const myDog = {
-  // Only change code below this line
-name:"fdff",
-legs:45,
-tails:25,
-friends:[34,43,35]
-
-  // Only change code above this line
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
 };
-let vari="friends"
-const hatValue = myDog["friends"];   
+
+// Only change code below this line
+myDog["name"]="Happy Coder";
