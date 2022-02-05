@@ -50,16 +50,18 @@ const sum = 10 + 10;
 const difference = 45 - 33;
 
 const product = 8 * 10;
-function isLess(a, b) {
+// Setup
+function abTest(a, b) {
+  let x;
   // Only change code below this line
-  // if (a < b) {
-  //   return true;
-  // } else {
-  //   return false;
-  // }
+    if(a<0 || b<0){
+      return x;
+    }
 
-  return a<b;
+
   // Only change code above this line
+
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
 }
 
-isLess(10, 15);
+abTest(2,2);
