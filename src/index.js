@@ -50,17 +50,20 @@ const sum = 10 + 10;
 const difference = 45 - 33;
 
 const product = 8 * 10;
-
-function trueOrFalse(wasThatTrue) {
-
-    if(wasThatTrue){
-      return "Yes, that was true";
+function testSize(num) {
+    // Only change code below this line
+    let x;
+    if(num<5){
+   x= "Tiny";
+    }else if(num<10){
+  x= "Small";
   
-    }else{
-      return "No, that was false";
+    }else if(num<15){
+      x= "Medium";
   
+    }else if(num<20){
+  x= "Large"
+    }else if(num>=20) {
+  x= "Huge"
     }
-  }
-  
-  trueOrFalse(true);
-  trueOrFalse(false);
+}
