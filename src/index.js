@@ -79,3 +79,5 @@ const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
 
 const mySter = '<a href="http://www.example.com" target="_blank">Link</a>';
 const myStr3 = "This is the start."+" This is the end."; 
+let myStr ="This is the first sentence.";
+myStr4 +=" This is the second sentence.";
