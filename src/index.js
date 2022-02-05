@@ -52,5 +52,8 @@ const difference = 45 - 33;
 const product = 8 * 10;
 
 const quotient = 66 / 33;
-const myArray = [50, 60, 70];
-let myData=myArray[0];
+
+const myArray = [18, 64, 99];
+
+
+myArray[0]=45;
