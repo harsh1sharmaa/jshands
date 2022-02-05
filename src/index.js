@@ -51,10 +51,16 @@ const difference = 45 - 33;
 
 const product = 8 * 10;
 
-const quotient = 66 / 33;
-const outerWear = "T-Shirt";
-function welcomeToBooleans() {
-   
+function trueOrFalse(wasThatTrue) {
+
+    if(wasThatTrue){
+      return "Yes, that was true";
   
-    return true;
+    }else{
+      return "No, that was false";
+  
+    }
   }
+  
+  trueOrFalse(true);
+  trueOrFalse(false);
