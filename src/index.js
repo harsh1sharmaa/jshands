@@ -75,11 +75,6 @@ remainder=8%3;
 
 
 
-const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; 
-
-const mySter = '<a href="http://www.example.com" target="_blank">Link</a>';
-const myStr3 = "This is the start."+" This is the end."; 
-
-
-let myName23 = " My name is ";
-let myStr23 = "and I am well!" + myName23+" how are you?";
+const someAdjective = "ourStr would have the value ";
+let myStr = "Learning to code is ";
+myStr+=someAdjective;
