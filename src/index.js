@@ -60,4 +60,4 @@ friends:[34,43,35]
 
   // Only change code above this line
 };
-const hatValue = myDog.friends;   
+const hatValue = myDog["friends"];   
