@@ -54,17 +54,11 @@ const product = 8 * 10;
 const quotient = 66 / 33;
 const outerWear = "T-Shirt";
 
-let sum1 = 0;
 
-function addThree() {
-  sum1= sum1 + 3;
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
 }
 
-
-function addFive() {
-  sum1 = sum1 + 5;
-}
-
-
-addThree();
-addFive();
+ processed=processArg(7);
