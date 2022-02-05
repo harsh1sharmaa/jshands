@@ -51,11 +51,18 @@ const difference = 45 - 33;
 
 const product = 8 * 10;
 let count = 0;
+function fun(val){
 const myDog = {
+
   "name": "Happy Coder",
   "legs": 4,
   "tails": 1,
   "friends": ["freeCodeCamp Campers"]
 };
 
-delete myDog.name;
+return myDog[val];
+
+
+}
+
+fun("name");
