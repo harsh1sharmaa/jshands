@@ -60,5 +60,5 @@ myVar1++;
 myVar1--
 Setup
 const lastName = "Lovelace";
-const thirdLetterOfLastName = lastName[2];
- 
+
+const lastLetterOfLastName = lastName[lastName.length - 5];
