@@ -71,6 +71,9 @@ function caseInSwitch(val) {
     
     answer="delta";
     break;
+    default:
+      answer="default";
+      break;
 }
 
 
