@@ -54,7 +54,8 @@ const product = 8 * 10;
 const quotient = 66 / 33;
 
 let myVar1 = 87;
-const lastName = "Lovelace";
-
-
-const secondToLastLetterOfLastName = lastName[lastName.length-2];
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+const wordBlanks = myNoun +" "+ myVerb  + " "+ " "+myAdjective +" "+ myAdverb; 
