@@ -52,9 +52,22 @@ const difference = 45 - 33;
 const product = 8 * 10;
 
 const quotient = 66 / 33;
-function functionWithArgs(x,y){
-    console.log(x+y);
-    return x+y;
+// Declare the myGlobal variable below this line
+let oopsGlobal;
+let myGlobal=10;
+function fun1() {
+  
+  oopsGlobal=5;
+
+}
+
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
   }
-  functionWithArgs(1,2);
-  functionWithArgs(7,9);
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
