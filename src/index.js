@@ -60,7 +60,8 @@ const myDog = {
   "friends": ["freeCodeCamp Campers"]
 };
 
-return myDog[val];
+// return myDog[val];
+console.log(myDog.hasOwnProperty("legs"));
 
 
 }
