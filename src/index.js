@@ -13,4 +13,6 @@ myVar = 5;
 console.log(myVar);
  let num=myVar;
 
+ let myvalu=10;
+
 
