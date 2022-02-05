@@ -52,5 +52,5 @@ const difference = 45 - 33;
 const product = 8 * 10;
 
 const quotient = 66 / 33;
-
-const myArray = [["White Sox", 45],["no Sox", 45]];
+const myArray = [50, 60, 70];
+let myData=myArray[0];
