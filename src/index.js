@@ -50,30 +50,33 @@ const sum = 10 + 10;
 const difference = 45 - 33;
 
 const product = 8 * 10;
-const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
-
-function golfScore(par, strokes) {
+function caseInSwitch(val) {
+  let answer = "";
   // Only change code below this line
-  let x;
-  if(strokes==1){
-    x=names[0];
-  }else if(strokes<=par -2 ){
-     x=names[1];
-  }else if(strokes ==par-1){
- x=names[2];
-  }else if(strokes==par){
- x=names[3];
-  }else if(strokes==par+1){
- x=names[4];
-  }else if(strokes==par+2){
- x=names[5];
-  }else if(strokes >=par+3){
-    x=names[6];
-  }
-
-
-  return x;
-  // Only change code above this line
+    
+ switch(val) {
+  case 1:
+   
+    answer="alpha";
+    break;
+  case 2:
+  
+    answer="beta";
+    break;
+  case 3:
+    
+    answer="gamma";
+    break;
+  case 4:
+    
+    answer="delta";
+    break;
 }
 
-golfScore(5, 4);
+
+
+  // Only change code above this line
+  return answer;
+}
+
+caseInSwitch(1);
