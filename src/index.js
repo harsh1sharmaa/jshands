@@ -54,11 +54,7 @@ const product = 8 * 10;
 const quotient = 66 / 33;
 
 let myVar1 = 87;
-
-
-myVar1++;
-myVar1--
-Setup
 const lastName = "Lovelace";
 
-const lastLetterOfLastName = lastName[lastName.length - 5];
+
+const secondToLastLetterOfLastName = lastName[lastName.length-2];
