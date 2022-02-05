@@ -52,7 +52,9 @@ const difference = 45 - 33;
 const product = 8 * 10;
 
 const quotient = 66 / 33;
-const myArray = [["John", 23], ["dog", 3]];
-myArray.shift();
-
-myArray.unshift(["Paul", 35]);
+const myList = [];
+myList.push(["Chocolate Bar", 10]);
+myList.push(["Chocolate", 10]);
+myList.push(["Chocolate Bar",24]);
+myList.push(["Chocolate Bar", 43]);
+myList.push(["Chocolate Bar",43]);
