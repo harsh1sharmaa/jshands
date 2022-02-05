@@ -69,3 +69,6 @@ myDecimal=parseFloat(myDecimal);
 const product = 5.0 * 1.0;
 
 const quotient = 4.4 / 2;
+
+let remainder = 8;
+remainder=8%3;
