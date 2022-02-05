@@ -57,4 +57,5 @@ const myDog = {
   "tails": 1,
   "friends": ["freeCodeCamp Campers"]
 };
-my
+
+delete myDog.name;
