@@ -53,14 +53,8 @@ const product = 8 * 10;
 
 const quotient = 66 / 33;
 const outerWear = "T-Shirt";
-
-function nextInLine(arr, item) {
+function welcomeToBooleans() {
+   
   
-    arr.push(item);
-    item=arr.shift();
-    return item;
-}
-  const testArr = [1, 2, 3, 4, 5];
-  console.log("Before: " + JSON.stringify(testArr));
-  console.log(nextInLine(testArr, 6));
-  console.log("After: " + JSON.stringify(testArr));
+    return true;
+  }
