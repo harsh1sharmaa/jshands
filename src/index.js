@@ -52,9 +52,8 @@ const difference = 45 - 33;
 const product = 8 * 10;
 
 const quotient = 66 / 33;
-const myList = [];
-myList.push(["Chocolate Bar", 10]);
-myList.push(["Chocolate", 10]);
-myList.push(["Chocolate Bar",24]);
-myList.push(["Chocolate Bar", 43]);
-myList.push(["Chocolate Bar",43]);
+function reusableFunction(){
+    console.log("Hi World");
+  }
+  reusableFunction();
+  
