@@ -59,3 +59,9 @@ let myVar1 = 87;
 myVar1++;
 myVar1--
 
+
+
+
+let myDecimal=5.7;
+myDecimal=parseFloat(myDecimal);
+
