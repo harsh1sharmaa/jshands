@@ -60,4 +60,5 @@ friends:[34,43,35]
 
   // Only change code above this line
 };
+let vari="friends"
 const hatValue = myDog["friends"];   
