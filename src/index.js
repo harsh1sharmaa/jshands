@@ -58,12 +58,7 @@ let myVar1 = 87;
 
 myVar1++;
 myVar1--
+let myStr = "Jello World";
 
-
-
-
-let myDecimal=5.7;
-myDecimal=parseFloat(myDecimal);
-let firstLetterOfLastName = "";
-const lastName = "Lovelace";
-firstLetterOfLastName = lastName[0]; 
+ myStr = "Hello World";
+ 
