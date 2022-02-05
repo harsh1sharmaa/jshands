@@ -52,8 +52,8 @@ const difference = 45 - 33;
 const product = 8 * 10;
 
 const quotient = 66 / 33;
-function reusableFunction(){
-    console.log("Hi World");
+function functionWithArgs(x,y){
+    console.log(x+y);
   }
-  reusableFunction();
-  
+  functionWithArgs(1,2);
+  functionWithArgs(7,9);
