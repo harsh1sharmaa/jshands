@@ -76,3 +76,5 @@ remainder=8%3;
 
 
 const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; 
+
+const mySter = '<a href="http://www.example.com" target="_blank">Link</a>';
