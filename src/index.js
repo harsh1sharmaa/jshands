@@ -66,19 +66,13 @@ let myDecimal=5.7;
 myDecimal=parseFloat(myDecimal);
 
 
-const product = 5.0 * 1.0;
 
-const quotient = 4.4 / 2;
+
+
 
 let remainder = 8;
 remainder=8%3;
 
 
-let a = 48;
-let b = 108;
-let c = 33;
 
-
-a /=  12;
-b /= 4;
-c /=  11;
+const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; 
