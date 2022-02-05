@@ -64,18 +64,6 @@ myVar1--
 
 let myDecimal=5.7;
 myDecimal=parseFloat(myDecimal);
-
-
-
-
-
-
-let remainder = 8;
-remainder=8%3;
-
-
-let lastNameLength = 0;
+let firstLetterOfLastName = "";
 const lastName = "Lovelace";
-
-
-lastNameLength = lastName.length;
+firstLetterOfLastName = lastName[0]; 
