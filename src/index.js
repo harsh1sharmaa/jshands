@@ -54,8 +54,4 @@ const product = 8 * 10;
 const quotient = 66 / 33;
 
 let myVar1 = 87;
-const myNoun = "dog";
-const myAdjective = "big";
-const myVerb = "ran";
-const myAdverb = "quickly";
-const wordBlanks = myNoun +" "+ myVerb  + " "+ " "+myAdjective +" "+ myAdverb; 
+const myArray = ["peanut" ,10];
