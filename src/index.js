@@ -50,30 +50,32 @@ const sum = 10 + 10;
 const difference = 45 - 33;
 
 const product = 8 * 10;
-function caseInSwitch(val) {
+function chainToSwitch(val) {
   let answer = "";
   // Only change code below this line
-    
- switch(val) {
+
+  switch(val) {
+  case "bob":
+    answer = "Marley";
+    break;
+  case 42:
+    answer = "The Answer";
+    break;
   case 1:
-  case 2:
-  case 3:
-    
-    answer="gamma";
+    answer = "There is no #1";
     break;
-  case 4:
-    
-    answer="delta";
+  case 99:
+    answer = "Missed me by this much!";
     break;
-    default:
-      answer="default";
-      break;
+   case 7:
+    answer = "Ate Nine";
+    break;
+
+    
+
 }
-
-
-
-  // Only change code above this line
+  
   return answer;
 }
 
-caseInSwitch(1);
+chainToSwitch(7);
