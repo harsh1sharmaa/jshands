@@ -14,5 +14,6 @@ console.log(myVar);
  let num=myVar;
 
  let myvalu=10;
-
+ let str="harsh sharma";
+console.log(str);
 
