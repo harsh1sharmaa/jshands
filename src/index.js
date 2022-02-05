@@ -52,18 +52,30 @@ const difference = 45 - 33;
 const product = 8 * 10;
 let count = 0;
 function fun(val){
-const myDog = {
-
-  "name": "Happy Coder",
-  "legs": 4,
-  "tails": 1,
-  "friends": ["freeCodeCamp Campers"]
-};
-
-// return myDog[val];
-console.log(myDog.hasOwnProperty("legs"));
-
-
-}
-
-fun("name");
+  const myMusic = [
+    {
+      "artist": "Billy Joel",
+      "title": "Piano Man",
+      "release_year": 1973,
+      "formats": [
+        "CD",
+        "8T",
+        "LP"
+      ],
+      "gold": true
+    }
+  ];
+  myMusic.push(
+    {
+       "artist": "lly Joel",
+      "title": "Pi Man",
+      "release_year": 193,
+      "formats": [
+        "D",
+        "T",
+        "P"
+      ],
+      "gold": true
+  
+    }
+  )
