@@ -51,21 +51,12 @@ const difference = 45 - 33;
 
 const product = 8 * 10;
 let count = 0;
-
-function cc(card) {
+const myDog = {
   // Only change code below this line
-  let x=" Bet";
-  if(card== 2 || card==3|| card==4|| card==5 ||card==6){
-    count++;
-  }else if(card==10|| card=='J' || card=='Q'|| card=='K' || card=='A'){
-    count--;
-    x=" Hold";
+name:"fdff",
+legs:45,
+tails:25,
+friends:[34,43,35]
 
-  }
-
-
-  return count+x;
   // Only change code above this line
-}
-
-cc(2); cc(3); cc(7); cc('K'); cc('A');
+};
