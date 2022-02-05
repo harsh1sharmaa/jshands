@@ -74,7 +74,8 @@ let remainder = 8;
 remainder=8%3;
 
 
+let lastNameLength = 0;
+const lastName = "Lovelace";
 
-const someAdjective = "ourStr would have the value ";
-let myStr = "Learning to code is ";
-myStr+=someAdjective;
+
+lastNameLength = lastName.length;
